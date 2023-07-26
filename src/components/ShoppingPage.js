@@ -141,7 +141,7 @@ return (
                 Stock Left :{" "}
                 <span className="countcolor">{ele.rating.count}</span>
               </p>
-              {ele.isChecked ? <button className='addedtocartbtn'>dded to cart</button> :
+              {ele.isChecked ? <button className='addedtocartbtn'>Added to cart</button> :
               <button
                 className="addtocartbtn"
                 onClick={() => productaddedtocart(ele,ele.newId,ele.id)}
