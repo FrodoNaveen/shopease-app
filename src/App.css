@@ -1,38 +1,341 @@
+
+
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .welcome{
+width: 850px;
+height: 400px;
+margin: auto;
+margin-top: 300px;
+align-items: center;
+text-align: center;
+background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.welcomemsg{
+  padding-top: 60px;
+}
+.welcomebtn{
+  height: 30px;
+  width: 150px;
+  background-color: white;
+  border-radius: 10px;
+  border: white;
+}
+.welcomebtn:hover{
+  background-color: cornflowerblue;
+} */
+
+.signin{
+  margin-top: 50px;
+}
+.shopeaselogo{
+  height: 100px;
+  width: 400px;
+  border-radius: 10px;
+}
+.subsignin{
+  width: 400px;
+  border: 1px solid grey;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.signinsub2{
+  text-align: start;
+  margin-left: 30px;
+}
+.signinp {
+  font-size: larger;
+  margin-top: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.signinlabel{
+  font-size: small;
+}
+.signininput{
+  width: 270px;
+  margin-top: 10px;
+  height: 20px;
+}
+.signininput.focus{
+  box-shadow: #1067b8;
+}
+.signinconbtn{
+  height: 40px;
+  width: 280px;
+  background-color: black;
+  color: #f0c14b;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.signinp2{
+  width: 310px;
+  font-size: 13px;
+}
+.span{
+  color: #0066c0;
+}
+.newaccbtn{
+  height: 40px;
+  width: 400px;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid gray;
+}
+.newaccbtn:hover{
+  cursor: pointer;
+  background-color: #d5cdcd;
+}
+.shopeasesignuplogo{
+  height: 90px;
+  width: 400px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+.signup{
+    width: 400px;
+    height: 630px;
+    border: 1px solid grey;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: start;
+}
+.signupsub2{
+  text-align: start;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.hr{
+  width: 310px;
+  margin-left: 0px;
+  margin-top: 40px;
+}
+.alreadyauser{
+  color: #1067b8;
+}
+.alreadyauser:hover{
+  cursor: pointer;
+  color: maroon;
+  text-decoration: underline;
+}
+.signupb{
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.signupdetails{
+  margin-top: 15px;
+}
+.input{
+  height: 25px;
+  width: 310px;
+}
+.required{
+  color: red;
+}
+.ie{
+  width: 310px;
+  font-size: 12px;
+}
+.signuplabel{
+  margin-top: 20px;
+}
+.continuebtn{
+  width: 310px;
+  background-color: #f0c14b;
+  border: #f0c14b;
+  height: 30px;
+  border-radius: 5px;
+}
+.header{
+  height: 60px;
+  background-color: black;
+ } 
+.headersub{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+}
+.headerlogo{
+  height: 60px;
+  width: 150px;
+}
+.headerlogo:hover{
+  cursor: pointer;
+}
+.headerpcolor{
   color: white;
+  margin-right: 20px;
+  padding: 5px;
+}
+.headerpcolor:hover{
+  cursor: pointer;
+  border: 1px solid white;
+}
+.headerinput{
+  height: 40px;
+  margin-top: 6px;
+  width: 900px;
+  font-size: large;
+}
+.heardersearchbtn{
+  height: 46px;
+  color: white;
+  margin-top: 6px;
+  margin-left: -37px;
+  background-color: sienna;
+}
+.heardersearchbtn:hover{
+  cursor: pointer;
+}
+.flex{
+  display: flex;
+  color: black;
+  height: 40px;
+  background-color: palegoldenrod;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.flex:hover{
+  cursor: pointer;
+}
+.category{
+  padding: 5px;
+}
+.category:hover{
+  border: 1px solid black;
+}
+.products{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 1600px;
+  margin-left: 130px;
+}
+.productdetails{
+  width: 400px;
+  height: 500px;
+  margin: auto;
+  margin-top: 30px;
+  border: 1px solid gray;
+}
+.productimage{
+  width: 400px;
+  height: 270px;
+}
+.producttitle{
+  text-align: center;
+  height: 60px;
+}
+.addtocartbtn{
+  width: 400px;
+  background-color: #f1ad0e;
+  border: f1ad0e;
+  height: 30px;
+}
+.addedtocartbtn{
+    width: 400px;
+    background-color: #1067b8;
+    border: #1067b8;
+    height: 30px;
+    color: white;
+  }
+.addtocartbtn:hover{
+  cursor: pointer;
+}
+.ratingcolor{
+  color: dodgerblue;
+}
+.countcolor{
+  color: red;
+}
+.suggestion{
+  width: 908px;
+  background-color: white;
+  position: absolute;
+  overflow: scroll;
+  border-radius: 5px;
+}
+.suggestionp{
+  color: hwb(214 0% 0%);
+  height: 30px;
+  border:hsl(0, 50%, 98%) ;
+  margin: auto;
+  padding-top: 5px;
+  background-color: hsl(0, 50%, 98%);
+  text-align: start;
+}
+.cartlist{
+  width: 750px;
+  margin: auto;
+}
+.cartproduct{
+  width: auto;
+  margin-top: 30px;
+  border: 1px solid black;
+}
+.cartproductimage{
+  height: 300px;
+  width: 300px;
+  text-align: start;
+
+}
+.cartproductflex{
+  display: flex;
+}
+.cartproductdetails{
+  margin-top: 100px;
+  margin-left: 30px;
+  width: 400px;
+}
+.cartremovebtn{
+  height: 40px;
+  border-radius: 5px;
+  border: gray;
+}
+.cartremovebtn:hover{
+  cursor: pointer;
+  background-color: red;
 }
 
-.App-link {
-  color: #61dafb;
+.buybtn{
+  background-color: #f0c14b;
+  height: 40px;
+  border: #f0c14b;
+  width: 200px;
+  border-radius: 5px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.orderdatas{
+  width: 400px;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 10px;
+}
+.orderimage{
+  width: 100px;
+  margin-top: 10px;
+}
+.orderbtn{
+  background-color: #f0c14b;
+  width: 200px;
+  height: 40px;
+  border: #f0c14b;
+  border-radius: 5px;
+}
+.orderbtn:hover{
+  cursor: pointer;
+}
+.continueShopping{
+  background-color:#f0c14b ;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  border:#f0c14b ;
+}
+.confirmation{
+  margin: auto;
+  width: 700px;
+  margin-top: 300px;
+  font-size: 30px;
+  background: linear-gradient(to top, #33ccff 0%, #99ffcc 100%);
 }
