@@ -11,6 +11,7 @@ const Welcome = () => {
     emailOrMobileNumber:""
   })
 
+ 
   useEffect(()=>{
 
     let getCookie = Cookies.get("email")
@@ -29,6 +30,8 @@ const Welcome = () => {
   }
   
   function getData(){
+
+    // checking from localstorage 
     function checkData() {
       let data = JSON.parse(localStorage.getItem("myData"));
       if (data.length >= 1) {
